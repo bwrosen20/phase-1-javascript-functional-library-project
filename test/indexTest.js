@@ -43,6 +43,7 @@ describe('index.js', function () {
 
     it('successfully returns a correctly populated array', function () {
       const arrResult = myMap(testArr, callback)
+      console.log(arrResult)
       expect(arraysEqual([3, 6, 9, 12], arrResult)).to.equal(true);
     })
 
